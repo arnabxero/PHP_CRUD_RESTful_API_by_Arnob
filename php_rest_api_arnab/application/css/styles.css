@@ -1,0 +1,63 @@
+.main-box {
+  background-color: #ffffff;
+  height: 80%;
+  width: auto;
+  border: 1px solid #e5eaf1;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  border-radius: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+a {
+  text-decoration: none;
+  color: #7581e1;
+}
+
+hr {
+  color: #000000;
+  height: 3px;
+}
+
+th {
+  color: #9494b8;
+}
+
+.arnab-dropdown {
+  height: 40px;
+  background-color: #ffffff;
+  border: 1px solid #e5eaf1;
+  border-radius: 5px;
+  padding: 10px;
+  width: 80px;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+}
+
+.pagination a:hover {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid #377292;
+}
+
+.pagination a.active {
+  border: 1px solid #7581e1;
+}
