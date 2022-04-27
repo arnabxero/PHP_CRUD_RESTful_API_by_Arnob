@@ -48,9 +48,10 @@
 
 <h1>Optional : Direct API Testing</h1>
 <strong>For API Testing – </strong>
+
 1. Open Postman Software. Enter link http://localhost/php_rest_api_arnab/api/events.php?page[number]=1&page[size]=5 and method GET, then submit. Modify page[number] and page[size] to test the API.
-2. 
-3. To get a single entry, enter the link http://localhost/php_rest_api_arnab/api/events.php?id=5 or enter the link http://localhost/php_rest_api_arnab/api/events.php with a http body = 
+
+2. To get a single entry, enter the link http://localhost/php_rest_api_arnab/api/events.php?id=5 or enter the link http://localhost/php_rest_api_arnab/api/events.php with a http body = 
     <code>{
     "id": "5"
 }</code>
