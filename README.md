@@ -16,13 +16,13 @@
   <p><a href="https://github.com/arnabxero/PHP_CRUD_RESTful_API_by_Arnob/blob/main/php_rest_api_arnab/application/backend/form_handle.php">“php_rest_api_arnab/application/backend/form_handle.php”</a></p>
 <br>
 <strong>[Database Configuration File]</strong>
-  <p><a href="">“php_rest_api_arnab/config/connection.php”</a></p>
+  <p><a href="https://github.com/arnabxero/PHP_CRUD_RESTful_API_by_Arnob/blob/main/php_rest_api_arnab/config/connection.php">“php_rest_api_arnab/config/connection.php”</a></p>
 <br>
 <strong>[WEB APP – CSS Stylesheet]</strong>
   <p><a href="https://github.com/arnabxero/PHP_CRUD_RESTful_API_by_Arnob/blob/main/php_rest_api_arnab/application/css/styles.css">“php_rest_api_arnab/styles.css”</a></p>
 <br>
 <strong>[MySQL Database Import File]</strong>
-  <p><a href="">“php_rest_api_arnab/php_rest_api.sql”</a></p>
+  <p><a href="https://github.com/arnabxero/PHP_CRUD_RESTful_API_by_Arnob/blob/main/php_rest_api_arnab/php_rest_api.sql">“php_rest_api_arnab/php_rest_api.sql”</a></p>
 <br>
 
 <h1>How to run the project:</h1>
