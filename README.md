@@ -52,15 +52,16 @@
     "id": "5"
 }</code>
 This will return a single entry with the key 'id'. Change 'id' to test the API.
-3. To update an entry put this link http://localhost/php_rest_api_arnab/api/events.php and enter this in http body = 
+3. To update an entry, put this link http://localhost/php_rest_api_arnab/api/events.php and enter this in http body = 
     <code>{
     "id": "5",
     "name": "EventName",
     "location": "EventLocation",
     "date": "EventDateTime"
 }</code>
-4. Open Browser and copy paste this link http://localhost/php_rest_api_arnab/application/index.php to view the homepage of the web app.
-5. Open this link http://localhost/php_rest_api_arnab/application/create.php or click on “Create” from the homepage to create a new event.
-6. Click on “Edit” to update an existing event record.
-7. Click on “Delete” to delete an existing event record.
+This will update the entry with 'id' = 5. Change key values to test the API.
+4. To delete an entry, put this link and provide a http body with the key 'id' as like this =  <code>{
+    "id": "5"
+}</code>
+This will delete the entry with id = 5.
 
