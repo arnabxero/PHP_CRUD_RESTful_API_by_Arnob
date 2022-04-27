@@ -2,7 +2,7 @@
 
 <h3>This repository contains a CRUD RESTful API along with an Web Application which is built around this API. </h3>
 
-<h1>All File details : </h1>
+<h1>⬛All File details : </h1>
 
 <strong>[API] </strong>
  <p><a href="https://github.com/arnabxero/PHP_CRUD_RESTful_API_by_Arnob/blob/main/php_rest_api_arnab/api/events.php">“php_rest_api_arnab/api/events.php”</a></p>
@@ -26,7 +26,7 @@
   <p><a href="https://github.com/arnabxero/PHP_CRUD_RESTful_API_by_Arnob/blob/main/php_rest_api_arnab/php_rest_api.sql">“php_rest_api_arnab/php_rest_api.sql”</a></p>
 <br>
 
-<h1>How to run the project:</h1>
+<h1>⬛How to run the project:</h1>
 
 
 <strong>Requirements – </strong>
@@ -47,7 +47,7 @@
 
 
 <br><hr>
-<h1>Optional : Direct API Testing</h1>
+<h1>⬛Optional : Direct API Testing</h1>
 <strong>For API Testing – </strong>
 
 1. Open Postman Software. Enter link http://localhost/php_rest_api_arnab/api/events.php?page[number]=1&page[size]=5 and method GET, then submit. Modify page[number] and page[size] to test the API.
