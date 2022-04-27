@@ -45,13 +45,17 @@
 6. Click on “Edit” to update an existing event record.
 7. Click on “Delete” to delete an existing event record.
 
+
+<h1>Optional : Direct API Testing</h1>
 <strong>For API Testing – </strong>
 1. Open Postman Software. Enter link http://localhost/php_rest_api_arnab/api/events.php?page[number]=1&page[size]=5 and method GET, then submit. Modify page[number] and page[size] to test the API.
-2. To get a single entry, enter the link http://localhost/php_rest_api_arnab/api/events.php?id=5 or enter the link http://localhost/php_rest_api_arnab/api/events.php with a http body = 
+2. 
+3. To get a single entry, enter the link http://localhost/php_rest_api_arnab/api/events.php?id=5 or enter the link http://localhost/php_rest_api_arnab/api/events.php with a http body = 
     <code>{
     "id": "5"
 }</code>
 This will return a single entry with the key 'id'. Change 'id' to test the API.
+
 3. To update an entry, put this link http://localhost/php_rest_api_arnab/api/events.php and enter this in http body = 
     <code>{
     "id": "5",
@@ -60,7 +64,8 @@ This will return a single entry with the key 'id'. Change 'id' to test the API.
     "date": "EventDateTime"
 }</code>
 This will update the entry with 'id' = 5. Change key values to test the API.
-4. To delete an entry, put this link and provide a http body with the key 'id' as like this =  <code>{
+
+4. To delete an entry, put this link http://localhost/php_rest_api_arnab/api/events.php and provide a http body with the key 'id' as like this =  <code>{
     "id": "5"
 }</code>
 This will delete the entry with id = 5.
