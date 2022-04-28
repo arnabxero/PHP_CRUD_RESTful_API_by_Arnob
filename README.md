@@ -34,7 +34,7 @@
 1. XAMPP [PHP & MYSQL]
 2. Internet Browser [Firefox or else]
 3. Postman [Optional : For API testing]
-
+<br>
 <strong>🟥Configuring and Running the Web App🟥</strong>
 
 1. Copy and paste the folder “php_rest_api_arnab”  inside the “htdocs” folder of xampp installation directory.
