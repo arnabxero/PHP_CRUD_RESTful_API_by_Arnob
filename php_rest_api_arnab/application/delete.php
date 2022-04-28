@@ -68,7 +68,7 @@ if (isset($_GET['id'])) {
         if (array_key_exists('yes', $_POST)) {
             yes($id);
         }
-        //A Function the entry --Start
+        //A Function to delete the entry --Start
         function yes($id)
         {
             $jsondata = '{
@@ -80,7 +80,7 @@ if (isset($_GET['id'])) {
 
             header('Location: index.php');
         }
-        //A Function the entry --End
+        //A Function to delete the entry --End
 
         ?>
 
