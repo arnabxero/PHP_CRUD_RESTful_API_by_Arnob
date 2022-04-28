@@ -4,7 +4,7 @@
 $start = 0;
 $end = 0;
 $total_data = 0;
-$page_number = 0;
+$page_number = 1;
 $page_size = 5;
 //Some helper variables that used throughout the entire page to show and keep track of various dynamic data --End
 
@@ -71,7 +71,12 @@ function paginator($page_n, $page_s)
 }
 //A function that generates dynamic pagination bar and controls it --End
 
-
+//Get default page number = 1 & size = 5
+$n = $page_number - 1;
+if ($n < 0) $n = 0;
+$i = $page_size;
+$start = $n * $i + 1;
+$end = $start + $i - 1;
 
 //A condition that receieves page number and size information from link, And generates range of data index --Start
 if (isset($_GET['page'])) {
