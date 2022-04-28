@@ -30,13 +30,13 @@
 
 
 <strong>🟨Requirements🟨</strong>
-
+<br>
 1. XAMPP [PHP & MYSQL]
 2. Internet Browser [Firefox or else]
 3. Postman [Optional : For API testing]
 <br>
 <strong>🟥Configuring and Running the Web App🟥</strong>
-
+<br>
 1. Copy and paste the folder “php_rest_api_arnab”  inside the “htdocs” folder of xampp installation directory.
 2. Create a database on MySQL named “php_rest_api”. [MySQL database should have default user credentials such as username = ‘root’ & password = ‘’.]
 3. Create a table on that database named “events_table” which should contain 3 columns named “Name”, “Location” & “DateTime” along with a primary key named “id”. [For ease,      just import the provided database sql file to the “php_rest_api” database].
