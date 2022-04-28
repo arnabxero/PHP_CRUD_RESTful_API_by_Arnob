@@ -8,10 +8,10 @@
  <p><a href="https://github.com/arnabxero/PHP_CRUD_RESTful_API_by_Arnob/blob/main/php_rest_api_arnab/api/events.php">“php_rest_api_arnab/api/events.php”</a></p>
 <br>
 <strong>[WEB APP – FrontEnd]</strong>
-  <p><a href="https://github.com/arnabxero/PHP_CRUD_RESTful_API_by_Arnob/blob/main/php_rest_api_arnab/application/index.php">“php_rest_api_arnab/application/index.php”</a></p>
-  <p><a href="https://github.com/arnabxero/PHP_CRUD_RESTful_API_by_Arnob/blob/main/php_rest_api_arnab/application/create.php">“php_rest_api_arnab/application/create.php”</a></p>
-  <p><a href="https://github.com/arnabxero/PHP_CRUD_RESTful_API_by_Arnob/blob/main/php_rest_api_arnab/application/edit.php">“php_rest_api_arnab/application/edit.php”</a></p>
-  <p><a href="https://github.com/arnabxero/PHP_CRUD_RESTful_API_by_Arnob/blob/main/php_rest_api_arnab/application/delete.php">“php_rest_api_arnab/application/delete.php”</a></p>
+  <p><a href="https://github.com/arnabxero/PHP_CRUD_RESTful_API_by_Arnob/blob/main/php_rest_api_arnab/application/index.php">“php_rest_api_arnab/application/index.php”</a> - List of events page UI</p>
+  <p><a href="https://github.com/arnabxero/PHP_CRUD_RESTful_API_by_Arnob/blob/main/php_rest_api_arnab/application/create.php">“php_rest_api_arnab/application/create.php”</a> - Create an event page UI</p>
+  <p><a href="https://github.com/arnabxero/PHP_CRUD_RESTful_API_by_Arnob/blob/main/php_rest_api_arnab/application/edit.php">“php_rest_api_arnab/application/edit.php”</a> - Edit an event page UI</p>
+  <p><a href="https://github.com/arnabxero/PHP_CRUD_RESTful_API_by_Arnob/blob/main/php_rest_api_arnab/application/delete.php">“php_rest_api_arnab/application/delete.php”</a> - Delete an event page UI</p>
 <br>
 <strong>[WEB APP – BackEnd]</strong>
   <p><a href="https://github.com/arnabxero/PHP_CRUD_RESTful_API_by_Arnob/blob/main/php_rest_api_arnab/application/backend/form_handle.php">“php_rest_api_arnab/application/backend/form_handle.php”</a></p>
