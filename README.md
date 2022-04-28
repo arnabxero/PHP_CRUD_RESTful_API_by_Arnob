@@ -35,7 +35,7 @@
 2. Internet Browser [Firefox or else]
 3. Postman [Optional : For API testing]
 
-<strong>🟥Configuring and Running the Web App🟥</strong>
+<h2><strong>🟥Configuring and Running the Web App🟥</strong></h2>
 
 1. Copy and paste the folder “php_rest_api_arnab”  inside the “htdocs” folder of xampp installation directory.
 2. Create a database on MySQL named “php_rest_api”. [MySQL database should have default user credentials such as username = ‘root’ & password = ‘’.]
