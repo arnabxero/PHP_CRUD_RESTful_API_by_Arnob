@@ -29,7 +29,7 @@
 <h1>How to run the project:</h1>
 
 
-<strong>🟨Requirements🟨</strong>
+<h2><strong>🟨Requirements🟨</strong></h2>
 
 1. XAMPP [PHP & MYSQL]
 2. Internet Browser [Firefox or else]
