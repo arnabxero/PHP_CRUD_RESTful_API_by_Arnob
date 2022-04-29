@@ -67,8 +67,7 @@ This will return a single entry with the key 'id'. Change 'id' to test the API.
                     "name": "EventName",
                     "location": "EventLocation",
                     "date": "EventDateTime"
-				}
-		</code>
+				}</code>
         </pre>
 and method POST on POSTMAN. This will create a new entry.
 
@@ -79,8 +78,7 @@ and method POST on POSTMAN. This will create a new entry.
                     "name": "EventName",
                     "location": "EventLocation",
                     "date": "EventDateTime"
-            }
-        </code>
+            }</code>
         </pre> 
 and method PUT on POSTMAN.
 This will update the entry with 'id' = 5. Change key values to test the API.
