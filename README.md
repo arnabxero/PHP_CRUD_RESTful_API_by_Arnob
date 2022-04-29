@@ -55,14 +55,17 @@
 2. To get a single entry, enter the link http://localhost/php_rest_api_arnab/api/events.php?id=5 or enter the link http://localhost/php_rest_api_arnab/api/events.php with a http body = 
     <pre><code>{
     "id": "5"
-}</code></pre> and method GET on POSTMAN.
+}</code></pre> 
+and method GET on POSTMAN.
 This will return a single entry with the key 'id'. Change 'id' to test the API.
 
-3. To create an entry, put this link http://localhost/php_rest_api_arnab/api/events.php and provide a http body as like this =  <pre><code>{
+3. To create an entry, put this link http://localhost/php_rest_api_arnab/api/events.php and provide a http body as like this =  
+<pre><code>{
     "name": "EventName",
     "location": "EventLocation",
     "date": "EventDateTime"
-}</code></pre> and method POST on POSTMAN.
+}</code></pre>
+and method POST on POSTMAN.
 This will create a new entry.
 
 4. To update an entry, put this link http://localhost/php_rest_api_arnab/api/events.php and enter this in http body = 
@@ -71,10 +74,13 @@ This will create a new entry.
     "name": "EventName",
     "location": "EventLocation",
     "date": "EventDateTime"
-}</code></pre> and method PUT on POSTMAN.
+}</code></pre> 
+and method PUT on POSTMAN.
 This will update the entry with 'id' = 5. Change key values to test the API.
 
-5. To delete an entry, put this link http://localhost/php_rest_api_arnab/api/events.php and provide a http body with the key 'id' as like this =  <pre><code>{
+5. To delete an entry, put this link http://localhost/php_rest_api_arnab/api/events.php and provide a http body with the key 'id' as like this =  
+<pre><code>{
     "id": "5"
-}</code></pre> and method DELETE on POSTMAN.
+}</code></pre>
+and method DELETE on POSTMAN.
 This will delete the entry with id = 5.
