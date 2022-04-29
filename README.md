@@ -1,7 +1,7 @@
 
 
 <h3>This repository contains a CRUD RESTful API along with an Web Application which is built around this API. </h3>
-<pre><code><small><i>Copyright © by Eftakhar Ahmed Arnob</i></small></code></pre>
+<code><small><i>Copyright © by Eftakhar Ahmed Arnob</i></small></code>
 <h1>All File details : </h1>
 
 <strong>[API] </strong>
@@ -53,28 +53,28 @@
 1. Open Postman Software. Enter link http://localhost/php_rest_api_arnab/api/events.php?page[number]=1&page[size]=5 and method GET, then submit. Modify page[number] and page[size] to test the API.
 
 2. To get a single entry, enter the link http://localhost/php_rest_api_arnab/api/events.php?id=5 or enter the link http://localhost/php_rest_api_arnab/api/events.php with a http body = 
-    <code>{
+    <pre><code>{
     "id": "5"
-}</code> and method GET on POSTMAN.
+}</code></pre> and method GET on POSTMAN.
 This will return a single entry with the key 'id'. Change 'id' to test the API.
 
-3. To create an entry, put this link http://localhost/php_rest_api_arnab/api/events.php and provide a http body as like this =  <code>{
+3. To create an entry, put this link http://localhost/php_rest_api_arnab/api/events.php and provide a http body as like this =  <pre><code>{
     "name": "EventName",
     "location": "EventLocation",
     "date": "EventDateTime"
-}</code> and method POST on POSTMAN.
+}</code></pre> and method POST on POSTMAN.
 This will create a new entry.
 
 4. To update an entry, put this link http://localhost/php_rest_api_arnab/api/events.php and enter this in http body = 
-    <code>{
+    <pre><code>{
     "id": "5",
     "name": "EventName",
     "location": "EventLocation",
     "date": "EventDateTime"
-}</code> and method PUT on POSTMAN.
+}</code></pre> and method PUT on POSTMAN.
 This will update the entry with 'id' = 5. Change key values to test the API.
 
-5. To delete an entry, put this link http://localhost/php_rest_api_arnab/api/events.php and provide a http body with the key 'id' as like this =  <code>{
+5. To delete an entry, put this link http://localhost/php_rest_api_arnab/api/events.php and provide a http body with the key 'id' as like this =  <pre><code>{
     "id": "5"
-}</code> and method DELETE on POSTMAN.
+}</code></pre> and method DELETE on POSTMAN.
 This will delete the entry with id = 5.
