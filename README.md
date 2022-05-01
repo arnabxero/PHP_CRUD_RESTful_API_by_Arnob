@@ -1,5 +1,3 @@
-
-
 <h3>This repository contains a CRUD RESTful API along with an Web Application which is built around this API. </h3>
 <code><small><i>Copyright © by Eftakhar Ahmed Arnob</i></small></code>
 <h1>All File details : </h1>
